@@ -1,0 +1,182 @@
+/* ROOT OF SITE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #1e1e1e;
+    color: #f2f2f2;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+/* HEADER */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.logo-container {
+    max-width: 180px;
+}
+
+.logo {
+    max-width: 150%;
+    height: auto;
+}
+
+.site-header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #1e1e1e;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e57a00;
+}
+
+/* SERVICES SECTION */
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background-color: #2a2a2a;
+    border-radius: 4px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.service-card h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
+.portfolio-gallery img {
+    width: 100%;
+    display: block;
+    border: 2px solid #ff8c00;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* FAQ SECTION */
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+details {
+    background-color: #2a2a2a;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+details summary {
+    font-weight: 600;
+    outline: none;
+}
+
+details p {
+    margin-top: 0.5rem;
+}
+
+/* FOOTER */
+.site-footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.site-footer a {
+    color: #ff8c00;
+}
+
+.site-footer a:hover {
+    color: #d57500;
+}
